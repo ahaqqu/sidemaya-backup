@@ -7,6 +7,7 @@ Steps:
 - Install Docker Desktop
 - Install Github Desktop
 - Checkout this project
+- Copy `.env` to `laradock` folder
 - Start cmd at checkout location
   - `cd laradock/`
   - `docker-compose up -d nginx mysql`
