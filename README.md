@@ -12,3 +12,9 @@ Steps:
   - `cd laradock/`
   - `docker-compose up -d nginx mysql`
   - `docker-compose exec --user=laradock workspace bash`
+    - `composer create-project laravel/laravel my-cool-app "5.2.*"`
+
+
+
+docker exec Nginx nginx -t
+docker exec Nginx nginx -s reload
